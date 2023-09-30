@@ -1,0 +1,335 @@
+.{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+.Profil {
+    height: 100vh;
+    width: 100%;
+    background-color: chocolate;
+    overflow: auto;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+    background-color: rgb(102, 143, 62);
+    border-bottom: 1px solid burlywood;
+}
+.logo {
+    color:beige;
+    font-size: 40px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: chocolate;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a {
+    color: beige;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+nav ul il a:hover {
+    color: blue;
+    transition: 0,8s;
+}
+
+.content {
+    position: absolute;
+    top: 60%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h4 {
+    color: beige;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+h1 {
+    color: beige;
+    font-size: 65px;
+    margin: 20px 0 20px;
+}
+h3 {
+    color: beige;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.content a {
+    font-size: 20px;
+    background: white;
+    color: blue;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 2px solid white;
+    transition: 0,5s;
+}
+.content a:hover {
+    background: transparent;
+    border: 2px solid blue ;
+}
+/* ABOUT ME */
+.about {
+    display: flex;
+    background-color: rgb(102, 143, 62);
+}
+.image-about {
+   
+    text-align: center;
+    padding-top: 40px;
+    width: 70%;
+}
+.image-about img {
+    align-items: center;
+    border-radius: 10px;
+}
+.about-text {
+    
+    text-align: start;
+    width: 70%;
+    padding: 30px;
+}
+.about-text h2 {
+    color: beige;
+    font-size: 70px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    
+}
+.about-text h5 {
+    color: beige;
+    letter-spacing: 2px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: beige;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+
+/* PORTOFOLIO */
+.porto {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(102, 143, 62);
+   
+}
+
+.porto-fo {
+    display: flex;
+}
+.judul-porto{
+    text-align: center;
+}
+.judul-porto h2 {
+    color: beige;
+    font-size: 70px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    
+}
+.porto-image {
+    text-align: center;
+    padding-top: 40px;
+    width: 70%;
+}
+.porto-image img {
+    align-items: start;
+    border-radius: 10px;
+}
+.porto-text {
+    text-align: start;
+    width: 70%;
+    padding: 30px;
+}
+
+.porto-text h5 {
+    color: beige;
+    letter-spacing: 2px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.porto-text p{
+    color: beige;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+.porto-fo2 {
+    display: flex;
+}
+.porto-image2 {
+   
+    text-align: center;
+    padding-top: 40px;
+    width: 70%;
+}
+.porto-image2 img {
+    align-items: start;
+    border-radius: 10px;
+}
+.porto-text2 {
+    text-align: start;
+    width: 70%;
+    padding: 30px;
+}
+
+.porto-text2 h6 {
+    color: beige;
+    letter-spacing: 2px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.porto-text2 p{
+    color: beige;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+/* SKILLS */
+
+.container-skills{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(102, 143, 62);
+    height: 65vh;
+    text-align: center;
+    
+}
+
+.container-list-skills{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 2 kolom */
+    grid-gap: 20px; /* Jarak antara item */
+    justify-content: center;
+   
+}
+.list-skills:hover {
+    transform: scale(1.2); 
+}
+.list-skills{
+    
+    box-shadow:  10px 5px 10px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color:chocolate;
+    text-align: center; 
+    font-size: 10px; 
+    transition: transform 0.3s ease-in-out;
+}
+
+.list-skills img{
+    width: 30%;
+}
+/* End Skills */
+
+
+/* Gaya untuk bagian "Kontak Kami" */
+.me {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: chocolate;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 20px auto;
+}
+.contact-me {
+    padding: 5px;
+    background-color: rgb(102, 143, 62);
+}
+.me h2 {
+    color: beige;
+    margin-bottom: 20px;
+}
+
+.me p {
+    color: beige;
+    margin-bottom: 20px;
+}
+
+/* Gaya untuk daftar tautan kontak */
+.contact-options {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-options li {
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+
+.contact-options a {
+    text-decoration: none;
+    
+}
+
+.contact-options img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+.contact-me ul {
+    list-style: none;
+}
+.social-media img {
+    margin: 5px;
+    width: 50px; /* Sesuaikan ukuran ikon sesuai kebutuhan */
+    height: 50px; /* Sesuaikan ukuran ikon sesuai kebutuhan */
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-media img:hover {
+    transform: scale(1.2); /* Efek zoom saat digunakan */
+}
+
+.social-media li {
+    color: beige;
+}
+.contact-options img:hover {
+
+    transform: scale(1.2);
+}
+
+.footer {
+    background-color: chocolate;
+    color: beige;
+    text-align: center;
+    height: 8vh;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
